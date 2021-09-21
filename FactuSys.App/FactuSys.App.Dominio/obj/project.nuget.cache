@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Hwa/m9xE0SbTGH5fGNpCvqRk6Kg3275nRDFal6S+T7roBwrAuPKEx13z3uADCKoQbres5MFe7QfIBHwLaN5jbg==",
+  "success": true,
+  "projectFilePath": "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App.Dominio\\FactuSys.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maria\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\maria\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

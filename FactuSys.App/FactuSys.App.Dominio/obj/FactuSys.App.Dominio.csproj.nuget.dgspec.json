@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App.Dominio\\FactuSys.App.Dominio.csproj": {}
+  },
+  "projects": {
+    "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App.Dominio\\FactuSys.App.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App.Dominio\\FactuSys.App.Dominio.csproj",
+        "projectName": "FactuSys.App.Dominio",
+        "projectPath": "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App.Dominio\\FactuSys.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
+        "outputPath": "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
