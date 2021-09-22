@@ -1,0 +1,10 @@
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Dominio\obj\Debug\netstandard2.1\FactuSys.App.Dominio.csproj.AssemblyReference.cache
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Dominio\obj\Debug\netstandard2.1\FactuSys.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Dominio\obj\Debug\netstandard2.1\FactuSys.App.Dominio.AssemblyInfoInputs.cache
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Dominio\obj\Debug\netstandard2.1\FactuSys.App.Dominio.AssemblyInfo.cs
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Dominio\obj\Debug\netstandard2.1\FactuSys.App.Dominio.csproj.CoreCompileInputs.cache
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Dominio\bin\Debug\netstandard2.1\FactuSys.App.Dominio.deps.json
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Dominio\bin\Debug\netstandard2.1\FactuSys.App.Dominio.dll
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Dominio\bin\Debug\netstandard2.1\FactuSys.App.Dominio.pdb
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Dominio\obj\Debug\netstandard2.1\FactuSys.App.Dominio.dll
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Dominio\obj\Debug\netstandard2.1\FactuSys.App.Dominio.pdb

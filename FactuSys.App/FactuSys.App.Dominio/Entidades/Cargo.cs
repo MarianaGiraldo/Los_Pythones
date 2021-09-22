@@ -1,3 +1,4 @@
+using System;
 namespace FactuSys.App.Dominio
 {
     /// <summary>Class <c>Cargo</c>

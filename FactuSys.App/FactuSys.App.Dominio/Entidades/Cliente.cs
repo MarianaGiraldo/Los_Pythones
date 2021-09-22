@@ -1,3 +1,4 @@
+using System;
 namespace FactuSys.App.Dominio
 {
     /// <summary>Class <c>Cliente</c>
@@ -6,8 +7,8 @@ namespace FactuSys.App.Dominio
      public class Cliente : Persona
      {
          // Identificador único de cada Cliente
-         public int ClienteID {get; set;}
-         // FEcha de nacimiento del cliente
-         public DateTime FechaNacimiento {get; set}
+         public int ClienteID { get; set; }
+         // Fecha de nacimiento del cliente
+         public DateTime FechaNacimiento { get; set; }
      }
 }

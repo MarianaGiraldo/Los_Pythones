@@ -1,6 +1,5 @@
 using System;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
 
 namespace FactuSys.App.Dominio
 {
@@ -18,11 +17,12 @@ namespace FactuSys.App.Dominio
 
          /// Relacion entre el Registro y el Empleado
          public int EmpleadoID { get; set; }
-         public virtual Empleado Empleado {get; set;}
+         public virtual Empleado Empleado { get; set; }
 
-         [DataType(DataType.Date)]
-         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
-         public DateTime FechaRegistro {get; set;}
+         public DateTime FechaRegistro { get; set; }
+
+         /// Relacion entre el Registro y Facturas de 1 a muchos
+         public virtual ICollection<Factura> Facturas { get; set; }
 
          public int Puntos { get; set; }
      }
