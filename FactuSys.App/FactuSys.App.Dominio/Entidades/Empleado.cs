@@ -1,3 +1,7 @@
+using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace FactuSys.App.Dominio
 {
     /// <summary>Class <c>Empleado</c>
@@ -6,8 +10,10 @@ namespace FactuSys.App.Dominio
      public class Empleado : Persona
      {
          // Identificador único de cada empleado
-         public int Id {get; set;}
+         public int EmpleadoID { get; set; }
          /// Relacion entre el empleado y el Cargo
-         public Cargo Cargo {get; set;}
+         [Required]
+         public int CargoID { get; set; }
+         public virtual Cargo Cargo { get; set; }
      }
 }

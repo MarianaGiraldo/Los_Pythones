@@ -1,11 +1,11 @@
 namespace FactuSys.App.Dominio
 {
-    /// <summary>Class <c>Class</c>
+    /// <summary>Class <c>Cargo</c>
      /// Modela un Cargo en general en el sistema 
      /// </summary>
     public class Cargo
     {
-        public int Id {get; set;}
-        public string Descripcion {get; set;}
+        public int CargoID { get; set; }
+        public string Descripcion { get; set; }
     }
 }

@@ -6,7 +6,7 @@ namespace FactuSys.App.Dominio
      public class Cliente : Persona
      {
          // Identificador único de cada Cliente
-         public int Id {get; set;}
+         public int ClienteID {get; set;}
          // FEcha de nacimiento del cliente
          public DateTime FechaNacimiento {get; set}
      }
