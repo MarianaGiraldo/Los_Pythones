@@ -10,5 +10,6 @@ namespace FactuSys.App.Dominio
          public int ClienteID { get; set; }
          // Fecha de nacimiento del cliente
          public DateTime FechaNacimiento { get; set; }
+         public int Puntos { get; set; }
      }
 }

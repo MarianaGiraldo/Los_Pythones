@@ -24,6 +24,5 @@ namespace FactuSys.App.Dominio
          /// Relacion entre el Registro y Facturas de 1 a muchos
          public virtual ICollection<Factura> Facturas { get; set; }
 
-         public int Puntos { get; set; }
      }
 }
