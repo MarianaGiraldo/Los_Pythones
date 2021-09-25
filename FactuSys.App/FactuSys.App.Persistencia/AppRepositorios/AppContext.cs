@@ -10,9 +10,7 @@ namespace FactuSys.App.Persistencia
         public DbSet<Persona> Personas{ get; set; }
         public DbSet<Cliente> Clientes{ get; set; }
         public DbSet<Empleado> Empleados{ get; set; }
-        public DbSet<Cargo> Cargos{ get; set; }
         public DbSet<Establecimiento> Establecimientos{ get; set; }
-        public DbSet<Tipo> Tipos{ get; set; }
         public DbSet<Registro> Registros{ get; set; }
         public DbSet<Factura> Facturas{ get; set; }
         
@@ -28,11 +26,11 @@ namespace FactuSys.App.Persistencia
       {
          modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
 
-         modelBuilder.Entity<Course>()
-             .HasMany(c => c.Instructors).WithMany(i => i.Courses)
-             .Map(t => t.MapLeftKey("CourseID")
-                 .MapRightKey("InstructorID")
-                 .ToTable("CourseInstructor"));
+         modelBuilder.Entity<Registro>()
+             .HasMany(r => r.Facturas).WithMany(f => f.Registros)
+             .Map(t => t.MapLeftKey("RegistroID")
+                 .MapRightKey("FacturaID")
+                 .ToTable("RegistroFactura"));
       }
         
     }

@@ -12,9 +12,5 @@ namespace FactuSys.App.Dominio
          public string RazonSocial { get; set; }
 
          public int NumeroLocal { get; set; }
-         
-         /// Relacion entre el Establecimiento y Tipo
-         public int TipoID { get; set; }
-         public virtual Tipo Tipo { get; set; }
      }
 }
