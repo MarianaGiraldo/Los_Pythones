@@ -17,4 +17,8 @@
     </PackageReference>
   </ItemGroup>
 
+   <ItemGroup>
+    <ProjectReference Include="..\FactuSys.App.Dominio\FactuSys.App.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>

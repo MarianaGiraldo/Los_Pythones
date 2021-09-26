@@ -13,10 +13,7 @@ namespace FactuSys.App.Dominio
          public int EstablecimientoID { get; set; }
          public virtual Establecimiento Establecimiento {get; set;}
 
-         /// Relacion entre el Factura y Cliente
-         public int ClienteID { get; set; }
-         public virtual Cliente Cliente { get; set; }
-
-         public DateTime FechaHora {get; set;}
+         public DateTime FechaHora { get; set; }
+         public int Total { get; set; }
      }
 }

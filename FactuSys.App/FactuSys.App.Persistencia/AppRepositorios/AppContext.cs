@@ -1,7 +1,5 @@
 using  Microsoft.EntityFrameworkCore;
 using FactuSys.App.Dominio;
-using System.Data.Entity;
-using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace FactuSys.App.Persistencia
 {
@@ -22,16 +20,16 @@ namespace FactuSys.App.Persistencia
             }
         }
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-      {
-         modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+    //     protected override void OnModelCreating(System.Data.Entity.DbModelBuilder modelBuilder)
+    //   {
+    //      modelBuilder.Conventions.Remove<System.Data.Entity.ModelConfiguration.Conventions.PluralizingTableNameConvention>();
 
-         modelBuilder.Entity<Registro>()
-             .HasMany(r => r.Facturas).WithMany(f => f.Registros)
-             .Map(t => t.MapLeftKey("RegistroID")
-                 .MapRightKey("FacturaID")
-                 .ToTable("RegistroFactura"));
-      }
+    //      modelBuilder.Entity<Registro>()
+    //          .HasMany(r => r.Facturas).WithMany(f => f.Registros)
+    //          .Map(t => t.MapLeftKey("RegistroID")
+    //              .MapRightKey("FacturaID")
+    //              .ToTable("RegistroFactura"));
+    //   }
         
     }
 }

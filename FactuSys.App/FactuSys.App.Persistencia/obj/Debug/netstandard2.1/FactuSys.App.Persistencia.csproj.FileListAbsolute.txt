@@ -7,3 +7,16 @@ G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.
 G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App.Persistencia\obj\Debug\netstandard2.1\FactuSys.App.Persistencia.csproj.CoreCompileInputs.cache
 G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App.Persistencia\obj\Debug\netstandard2.1\FactuSys.App.Persistencia.dll
 G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App.Persistencia\obj\Debug\netstandard2.1\FactuSys.App.Persistencia.pdb
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Persistencia\obj\Debug\netstandard2.1\FactuSys.App.Persistencia.csproj.AssemblyReference.cache
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Persistencia\obj\Debug\netstandard2.1\FactuSys.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Persistencia\obj\Debug\netstandard2.1\FactuSys.App.Persistencia.AssemblyInfoInputs.cache
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Persistencia\obj\Debug\netstandard2.1\FactuSys.App.Persistencia.AssemblyInfo.cs
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Persistencia\obj\Debug\netstandard2.1\FactuSys.App.Persistencia.csproj.CoreCompileInputs.cache
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Persistencia\obj\Debug\netstandard2.1\FactuSys.App.Persistencia.dll
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Persistencia\obj\Debug\netstandard2.1\FactuSys.App.Persistencia.pdb
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Persistencia\bin\Debug\netstandard2.1\FactuSys.App.Persistencia.deps.json
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Persistencia\bin\Debug\netstandard2.1\FactuSys.App.Persistencia.dll
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Persistencia\bin\Debug\netstandard2.1\FactuSys.App.Persistencia.pdb
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Persistencia\bin\Debug\netstandard2.1\FactuSys.App.Dominio.dll
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Persistencia\bin\Debug\netstandard2.1\FactuSys.App.Dominio.pdb
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Persistencia\obj\Debug\netstandard2.1\FactuSys.App.Persistencia.csproj.CopyComplete

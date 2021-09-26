@@ -12,4 +12,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FactuSys.App.Persistencia\FactuSys.App.Persistencia.csproj" />
+    <ProjectReference Include="..\FactuSys.App.Dominio\FactuSys.App.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>

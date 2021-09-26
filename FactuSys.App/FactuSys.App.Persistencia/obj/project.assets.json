@@ -2068,6 +2068,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "FactuSys.App.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/FactuSys.App.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FactuSys.App.Dominio.dll": {}
+        }
       }
     }
   },
@@ -7236,10 +7246,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "FactuSys.App.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../FactuSys.App.Dominio/FactuSys.App.Dominio.csproj",
+      "msbuildProject": "../FactuSys.App.Dominio/FactuSys.App.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
+      "FactuSys.App.Dominio >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
@@ -7252,24 +7268,31 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App.Persistencia\\FactuSys.App.Persistencia.csproj",
+      "projectUniqueName": "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App\\FactuSys.App.Persistencia\\FactuSys.App.Persistencia.csproj",
       "projectName": "FactuSys.App.Persistencia",
-      "projectPath": "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App.Persistencia\\FactuSys.App.Persistencia.csproj",
+      "projectPath": "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App\\FactuSys.App.Persistencia\\FactuSys.App.Persistencia.csproj",
       "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
-      "outputPath": "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App.Persistencia\\obj\\",
+      "outputPath": "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App\\FactuSys.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
-          "projectReferences": {}
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App\\FactuSys.App.Dominio\\FactuSys.App.Dominio.csproj": {
+              "projectPath": "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App\\FactuSys.App.Dominio\\FactuSys.App.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -7280,6 +7303,7 @@
     },
     "frameworks": {
       "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -7317,7 +7341,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

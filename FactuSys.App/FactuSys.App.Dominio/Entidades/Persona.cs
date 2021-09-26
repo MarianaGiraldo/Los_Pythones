@@ -13,7 +13,7 @@ namespace FactuSys.App.Dominio
 
         public string Apellidos { get; set; }
 
-        public string NumeroTelefono { get; set; }
+        public string Telefono { get; set; }
         
         public string Email { get; set; }
 
