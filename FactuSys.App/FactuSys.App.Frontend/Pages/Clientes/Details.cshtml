@@ -2,3 +2,21 @@
 @model FactuSys.App.Frontend.Pages.DetailsClientesModel
 @{
 }
+
+<h2>Cliente: @Model.Cliente.Nombre  @Model.Cliente.Apellidos</h2>
+<div>
+    Cliente ID: @Model.Cliente.ClienteID
+</div>
+<div>
+    Teléfono: @Model.Cliente.Telefono
+</div>
+<div>
+    Email: @Model.Cliente.Email
+</div>
+<div>
+    Fecha de Nacimiento: @Model.Cliente.FechaNacimiento
+</div>
+<div>
+    Puntos: @Model.Cliente.Puntos
+</div>
+<a asp-page="./List" class="btn-default">Lista de Clientes </a>
