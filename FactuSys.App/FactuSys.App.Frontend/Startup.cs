@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using HolaWeb.App.Persistencia.AppRepositorios;
+using FactuSys.App.Persistencia.AppRepositorios;
 
 namespace FactuSys.App.Frontend
 {
@@ -51,4 +51,8 @@ namespace FactuSys.App.Frontend
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazo
+                endpoints.MapRazorPages();
+            });
+        }
+    }
+}
