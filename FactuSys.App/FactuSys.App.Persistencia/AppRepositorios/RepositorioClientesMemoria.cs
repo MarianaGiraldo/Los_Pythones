@@ -13,9 +13,9 @@ namespace FactuSys.App.Persistencia.AppRepositorios
         {
             clientes = new List<Cliente>()
             {
-                new Cliente{Id=1,Nombre="Juan",Apellidos="Díaz",Telefono="3123889874", Email="JuanD@gmail.com", ClienteId="1", FechaNacimiento="1996-01-30", Puntos="0"},
-                new Cliente{Id=2,Nombre="Mariana",Apellidos="Giraldo Luna",Telefono="3123888316", Email="marianaG@gmail.com", ClienteId="1", FechaNacimiento="1996-01-30", Puntos="0"},
-                new Cliente{Id=3,Nombre="Felipe",Apellidos="Castro",Telefono="3008917847", Email="felipeC@gmail.com", ClienteId="1", FechaNacimiento="1996-01-30", Puntos="0"}
+                new Cliente{Id=1,Nombre="Juan",Apellidos="Díaz",Telefono="3123889874", Email="JuanD@gmail.com", ClienteID=1, FechaNacimiento= new DateTime(2000, 12, 24), Puntos=0},
+                new Cliente{Id=2,Nombre="Mariana",Apellidos="Giraldo Luna",Telefono="3123888316", Email="marianaG@gmail.com", ClienteID=1, FechaNacimiento= new DateTime(2000, 12, 24), Puntos=0},
+                new Cliente{Id=3,Nombre="Felipe",Apellidos="Castro",Telefono="3008917847", Email="felipeC@gmail.com", ClienteID=1, FechaNacimiento=new DateTime(2000, 12, 24), Puntos=0}
 
             };
         }
@@ -32,9 +32,9 @@ namespace FactuSys.App.Persistencia.AppRepositorios
             return clientes;
         }
 
-        public Cliente GetClientePorId(int ClienteId)
+        public Cliente GetClientePorId(int ClienteID)
         {
-            return clientes.SingleOrDefault(s => s.Id==ClienteId);
+            return clientes.SingleOrDefault(s => s.Id==ClienteID);
         }
 
         public IEnumerable<Cliente> GetClientesPorFiltro(string filtro=null) // el parámetro es opcional 
@@ -63,7 +63,7 @@ namespace FactuSys.App.Persistencia.AppRepositorios
                 cliente.Apellidos=clienteActualizado.Apellidos;
                 cliente.Telefono=clienteActualizado.Telefono;
                 cliente.Email=clienteActualizado.Email;
-                cliente.ClienteId=clienteActualizado.ClienteId;
+                cliente.ClienteID=clienteActualizado.ClienteID;
                 cliente.FechaNacimiento=clienteActualizado.FechaNacimiento;
                 cliente.Puntos=clienteActualizado.Puntos;
             }

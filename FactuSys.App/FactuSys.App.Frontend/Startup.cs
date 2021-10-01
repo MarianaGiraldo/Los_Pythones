@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using HolaWeb.App.Persistencia.AppRepositorios;
 
 namespace FactuSys.App.Frontend
 {
@@ -24,6 +25,7 @@ namespace FactuSys.App.Frontend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddSingleton<IRepositorioClientes, RepositorioClientesMemoria>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,8 +51,4 @@ namespace FactuSys.App.Frontend
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
-            });
-        }
-    }
-}
+                endpoints.MapRazo
