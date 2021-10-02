@@ -22,7 +22,7 @@ namespace FactuSys.App.Persistencia.AppRepositorios
 
         public Cliente Add(Cliente nuevoCliente)
         {
-           nuevoCliente.Id=clientes.Max(r => r.Id) +1; 
+           nuevoCliente.Id=clientes.Max(r => r.Id) + 1; 
            clientes.Add(nuevoCliente);
            return nuevoCliente;
         }

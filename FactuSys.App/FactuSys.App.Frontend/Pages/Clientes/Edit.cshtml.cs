@@ -19,16 +19,10 @@ namespace FactuSys.App.Frontend.Pages
         {
             this.repositorioClientes = repositorioClientes;
         }
-        public IActionResult OnGet(int? clienteId)
+        public IActionResult OnGet(int clienteId)
         {
-            if (clienteId.HasValue)
-            {
-                Cliente = repositorioClientes.GetClientePorId(clienteId.Value);
-            }
-            else
-            {
-                Cliente = new Cliente();
-            }
+            Cliente = repositorioClientes.GetClientePorId(clienteId);
+            
             if (Cliente == null)
             {
                 return RedirectToPage("./NotFound");
@@ -44,14 +38,8 @@ namespace FactuSys.App.Frontend.Pages
             {
                 return Page();
             }
-            if(Cliente.Id>0)
-            {
+
             Cliente = repositorioClientes.Update(Cliente);
-            }
-            else
-            {
-             repositorioClientes.Add(Cliente);
-            }
             return Page();
         }
     }

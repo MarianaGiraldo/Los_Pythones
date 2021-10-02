@@ -24,13 +24,13 @@
                             <span class="text-danger" asp-validation-for="Cliente.Apellidos"></span>
                     </div>
                         
-                    <div class="form-group col-md-3 position-relative my-3 mx-1">
+                    <div class="form-group col-md-4 position-relative my-3 mx-1">
                             <label asp-for="Cliente.Telefono"></label>
                             <input asp-for="Cliente.Telefono" class="form-control" type="tel" placeholder="Teléfono fijo - Celular">
                             <span class="text-danger" asp-validation-for="Cliente.Telefono"></span>
                     </div>
 
-                    <div class="form-group col-md-3 position-relative my-3 mx-1">
+                    <div class="form-group col-md-4 position-relative my-3 mx-1">
                             <label asp-for="Cliente.Email"></label>
                             <input asp-for="Cliente.Email" class="form-control" type="email" placeholder="ejemplo@factusys.com">
                             <span class="text-danger" asp-validation-for="Cliente.Email"></span>
@@ -41,9 +41,8 @@
                             <input asp-for="Cliente.FechaNacimiento" class="form-control" type="date" placeholder="ejemplo@factusys.com">
                             <span class="text-danger" asp-validation-for="Cliente.FechaNacimiento"></span>
                     </div>
-
-                    <button type="submit" class="btn btn-primary d-grid gap-2 col-3 h-50">Registrar</button>
-
+                    <br> <br>
+                    <button type="submit" class="btn btn-primary d-grid gap-2 col-5 h-50 m-auto">Registrar</button>
 
                 </form>
 
