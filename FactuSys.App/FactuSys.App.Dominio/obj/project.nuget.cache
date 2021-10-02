@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "S0EL4g5+xn7/y+Y2RnurZ5GCRMBsPixwE0xZT0MLsb3tNU2gwT6W/LASvvyqDvMfOBExTS7apvPcqf6Lv6OJyg==",
+  "dgSpecHash": "Dpm3ygsEYlh1Xgrl1AqCnj7WsV5Ja54VeEY3t4b0zkYEprpyHfPbL1Q2KWIOzoSqFq/pPMtkfou2moRYhokhTQ==",
   "success": true,
   "projectFilePath": "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App\\FactuSys.App.Dominio\\FactuSys.App.Dominio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\maria\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
