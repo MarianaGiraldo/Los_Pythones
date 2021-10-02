@@ -1,0 +1,54 @@
+﻿@page
+@model FactuSys.App.Frontend.Pages.EditClientesModel
+@{
+}
+<div class="container">
+    <center><img class="mb-4" src="~/images/logo.jpeg" alt="" width="400" height="96"></center>
+    <center>
+        <h1>Edición de Cliente: @Model.Cliente.Nombre @Model.Cliente.Apellidos</h1>
+    </center>
+    <div class="row">
+        <div class="col">
+            <div class="shadow-lg p-3 mb-5 mt-4 bg-light rounded">
+                <form class="row g-3" method="POST">
+                    <input type="hidden" asp-for="Cliente.Id"/>
+                    <div class="form-group col-md-3 position-relative my-3 mx-1">
+                        <label asp-for="Cliente.Nombre"></label>
+                        <input asp-for="Cliente.Nombre" class="form-control">
+                        <span class="text-danger" asp-validation-for="Cliente.Nombre"></span>
+                    </div>
+                    
+                    <div class="form-group col-md-3 position-relative my-3 mx-1">
+                            <label asp-for="Cliente.Apellidos"></label>
+                            <input asp-for="Cliente.Apellidos" class="form-control">
+                            <span class="text-danger" asp-validation-for="Cliente.Apellidos"></span>
+                    </div>
+                        
+                    <div class="form-group col-md-3 position-relative my-3 mx-1">
+                            <label asp-for="Cliente.Telefono"></label>
+                            <input asp-for="Cliente.Telefono" class="form-control" type="tel" placeholder="Teléfono fijo - Celular">
+                            <span class="text-danger" asp-validation-for="Cliente.Telefono"></span>
+                    </div>
+
+                    <div class="form-group col-md-3 position-relative my-3 mx-1">
+                            <label asp-for="Cliente.Email"></label>
+                            <input asp-for="Cliente.Email" class="form-control" type="email" placeholder="ejemplo@factusys.com">
+                            <span class="text-danger" asp-validation-for="Cliente.Email"></span>
+                    </div>
+                    
+                    <div class="form-group col-md-3 position-relative my-3 mx-1">
+                            <label asp-for="Cliente.FechaNacimiento"></label>
+                            <input asp-for="Cliente.FechaNacimiento" class="form-control" type="date" placeholder="ejemplo@factusys.com">
+                            <span class="text-danger" asp-validation-for="Cliente.FechaNacimiento"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary d-grid gap-2 col-3 h-50">Registrar</button>
+
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
