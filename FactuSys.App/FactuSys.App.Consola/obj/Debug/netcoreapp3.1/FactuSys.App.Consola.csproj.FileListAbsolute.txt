@@ -67,3 +67,9 @@ G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.
 G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Consola\bin\Debug\netcoreapp3.1\FactuSys.App.Persistencia.dll
 G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Consola\bin\Debug\netcoreapp3.1\FactuSys.App.Persistencia.pdb
 G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Consola\bin\Debug\netcoreapp3.1\FactuSys.App.Dominio.pdb
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Consola\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Consola\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using FactuSys.App.Dominio;
 
-namespace FactuSys.App.Persistencia.AppRepositorios
+namespace FactuSys.App.Persistencia
 {
     public interface IRepositorioClientes
     {
@@ -10,6 +10,9 @@ namespace FactuSys.App.Persistencia.AppRepositorios
         Cliente GetClientePorId(int clienteID);
         Cliente Update(Cliente clienteActualizado);
         Cliente Add(Cliente nuevoCliente);
+        void Delete(int idCliente);
+        IEnumerable<Cliente> GetClientesporNombre(string nombre);
+        IEnumerable<Cliente> GetClientesporApellido(string apellido);
       
     }
 }
