@@ -78,3 +78,9 @@ G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.
 G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.FrontEnd\obj\Debug\net5.0\Razor\Pages\Clientes\List.cshtml.g.cs
 G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Frontend\obj\Debug\net5.0\FactuSys.App.Frontend.csproj.AssemblyReference.cache
 G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.Frontend\obj\Debug\net5.0\Razor\Pages\Clientes\Edit.cshtml.g.cs
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.FrontEnd\bin\Debug\net5.0\System.Data.SqlClient.dll
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.FrontEnd\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.FrontEnd\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.FrontEnd\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.FrontEnd\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\Mi unidad\1 MARIANA\MisionTIC2022\DesarrolloSofware-Ciclo3\FactuSys\FactuSys.App\FactuSys.App.FrontEnd\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

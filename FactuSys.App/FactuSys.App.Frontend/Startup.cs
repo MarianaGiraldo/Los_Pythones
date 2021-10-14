@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using FactuSys.App.Persistencia.AppRepositorios;
+using FactuSys.App.Persistencia;
 
 namespace FactuSys.App.Frontend
 {
@@ -25,7 +25,8 @@ namespace FactuSys.App.Frontend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
-            services.AddSingleton<IRepositorioClientes, RepositorioClientesMemoria>();
+            services.AddTransient<IRepositorioClientes, RepositorioClientesMemoria>();
+            services.AddDbContext<FactuSys.App.Persistencia.AppContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

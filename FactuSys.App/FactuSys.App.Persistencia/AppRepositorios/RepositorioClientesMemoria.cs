@@ -25,12 +25,12 @@ namespace FactuSys.App.Persistencia
         public RepositorioClientesMemoria(AppContext appContext)
         {
             _appContext = appContext;
-            clientes = new List<Cliente>()
-            {
-                new Cliente{Id=1,Nombre="Juan",Apellidos="Díaz",Telefono="3123889874", Email="JuanD@gmail.com", ClienteID=1, FechaNacimiento= new DateTime(2000, 12, 24), Puntos=0},
-                new Cliente{Id=2,Nombre="Mariana",Apellidos="Giraldo Luna",Telefono="3123888316", Email="marianaG@gmail.com", ClienteID=2, FechaNacimiento= new DateTime(2000, 12, 24), Puntos=0},
-                new Cliente{Id=3,Nombre="Felipe",Apellidos="Castro",Telefono="3008917847", Email="felipeC@gmail.com", ClienteID=3, FechaNacimiento=new DateTime(2000, 12, 24), Puntos=0}
-            };
+            // clientes = new List<Cliente>()
+            // {
+            //     new Cliente{Id=1,Nombre="Juan",Apellidos="Díaz",Telefono="3123889874", Email="JuanD@gmail.com", ClienteID=1, FechaNacimiento= new DateTime(2000, 12, 24), Puntos=0},
+            //     new Cliente{Id=2,Nombre="Mariana",Apellidos="Giraldo Luna",Telefono="3123888316", Email="marianaG@gmail.com", ClienteID=2, FechaNacimiento= new DateTime(2000, 12, 24), Puntos=0},
+            //     new Cliente{Id=3,Nombre="Felipe",Apellidos="Castro",Telefono="3008917847", Email="felipeC@gmail.com", ClienteID=3, FechaNacimiento=new DateTime(2000, 12, 24), Puntos=0}
+            // };
             // foreach (Cliente cliente in clientes)
             // {
             //     var clienteAdicionado = _appContext.Clientes.Add(cliente);

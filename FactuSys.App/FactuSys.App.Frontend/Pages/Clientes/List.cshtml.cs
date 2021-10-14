@@ -5,15 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using FactuSys.App.Dominio;
-using FactuSys.App.Persistencia.AppRepositorios;
+using FactuSys.App.Persistencia;
 
 
 namespace FactuSys.App.Frontend.Pages
 {
     public class ListClientesModel : PageModel
     {
-       private readonly IRepositorioClientes repositorioClientes;
-       public IEnumerable<Cliente> Clientes {get;set;}
+       //private readonly IRepositorioClientes repositorioClientes;
+        public readonly IRepositorioClientes repositorioClientes = new RepositorioClientesMemoria(new Persistencia.AppContext());
+        public IEnumerable<Cliente> Clientes {get;set;}
 
        [BindProperty(SupportsGet =true)]
        public string FiltroBusqueda { get; set; }

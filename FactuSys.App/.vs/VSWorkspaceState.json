@@ -6,6 +6,6 @@
     "\\FactuSys.App.Frontend\\Pages\\Clientes",
     "\\FactuSys.App.Frontend\\Pages\\Empleados"
   ],
-  "SelectedNode": "\\FactuSys.App.Dominio",
+  "SelectedNode": "\\FactuSys.App.Frontend\\Pages\\Clientes\\Create.cshtml.cs",
   "PreviewInSolutionExplorer": false
 }
