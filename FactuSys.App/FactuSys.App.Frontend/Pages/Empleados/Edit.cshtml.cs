@@ -9,20 +9,26 @@ using FactuSys.App.Persistencia.AppRepositorios;
 
 namespace FactuSys.App.Frontend.Pages
 {
-    public class CreateEmpleadosModel : PageModel
+    public class EditEmpleadosModel : PageModel
     {
-private readonly IRepositorioEmpleados repositorioEmpleados;
+         private readonly IRepositorioEmpleados repositorioEmpleados;
         [BindProperty]
         public Empleado Empleado { get; set; }
 
-        public CreateEmpleadosModel(IRepositorioEmpleados repositorioEmpleados)
+        public EditEmpleadosModel(IRepositorioEmpleados repositorioEmpleados)
         {
             this.repositorioEmpleados = repositorioEmpleados;
         }
-        public IActionResult OnGet(int? EmpleadoId)
+        public IActionResult OnGet(int EmpleadoId)
         {
-            Empleado = new Empleado();
-            return Page();
+            Empleado = repositorioEmpleados.GetEmpleadoPorId(EmpleadoId);
+            
+            if (Empleado == null)
+            {
+                return RedirectToPage("./NotFound");
+            }
+            else
+                return Page();
 
         }
 
@@ -31,11 +37,10 @@ private readonly IRepositorioEmpleados repositorioEmpleados;
             if(!ModelState.IsValid)
             {
                 return Page();
-            }    
-            repositorioEmpleados.Add(Empleado);
+            }
+
+            Empleado = repositorioEmpleados.Update(Empleado);
             return Page();
         }
     }
 }
-
-

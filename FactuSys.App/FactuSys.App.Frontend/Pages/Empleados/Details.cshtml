@@ -1,0 +1,24 @@
+﻿@page
+@model FactuSys.App.Frontend.Pages.DetailsEmpleadosModel
+@{
+}
+
+<h2>Nombre: @Model.Empleado.Nombre  @Model.Empleado.Apellidos</h2>
+<div>
+    No.: @Model.Empleado.Id
+</div>
+<div>
+    Teléfono: @Model.Empleado.Telefono
+</div>
+<div>
+    Email: @Model.Empleado.Email
+</div>
+<div>
+    Código Empleado: @Model.Empleado.EmpleadoID
+</div>
+<div>
+    Contraseña: @Model.Empleado.Contrasena
+</div>
+<p></p>
+<a asp-page="./List" class="btn-default">Lista de Empleados </a>
+

@@ -1,17 +1,17 @@
 ﻿@page
-@model FactuSys.App.Frontend.Pages.CreateEmpleadosModel
+@model FactuSys.App.Frontend.Pages.EditEmpleadosModel
 @{
 }
 <div class="container">
     <center><img class="mb-4" src="~/images/logo.jpeg" alt="" width="400" height="96"></center>
     <center>
-        <h1>Creación de Empleado: </h1>
+        <h1>Edición Empleado: <p></p>@Model.Empleado.Nombre @Model.Empleado.Apellidos</h1>
     </center>
     <div class="row">
         <div class="col">
             <div class="shadow-lg p-3 mb-5 mt-4 bg-light rounded">
                 <form class="row g-3" method="POST">
-                    <input type="hidden" asp-for="Empleado.Id"/>
+                    <input type="hidden" asp-for="Empleado.EmpleadoID"/>
                     <div class="form-group col-md-3 position-relative my-3 mx-1">
                         <label asp-for="Empleado.Nombre"></label>
                         <input asp-for="Empleado.Nombre" class="form-control">
@@ -42,9 +42,8 @@
                             pattern="[A-Za-z0-9_-]{8,12}">
                             <span class="text-danger" asp-validation-for="Empleado.Contrasena"></span>
                     </div>
-
                     <br> <br>
-                    <button type="submit" class="btn btn-primary d-grid gap-2 col-5 h-50 m-auto">Registrar</button>
+                    <button type="submit" class="btn btn-primary d-grid gap-2 col-5 h-50 m-auto">Actualizar</button>
                     <br> 
                     <p>
                     <a asp-page="./List" class="btn-default">Lista de Empleados </a>
@@ -54,3 +53,4 @@
         </div>
     </div>
 </div>
+

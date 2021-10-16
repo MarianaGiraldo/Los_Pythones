@@ -1,0 +1,46 @@
+﻿@page
+@model FactuSys.App.Frontend.Pages.ListEmpleadosModel
+@{
+}
+
+<h1>Listado de Empleados</h1>
+<form method="get">
+    <div class="form-group">
+
+       <p>
+            Nombre Empleado: <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda" />
+            <input type="submit" value="Filtrar" />
+        </p>
+    </div>
+</form>
+<table class="table">
+    <tr>
+        <th>Empleado ID</th>
+        <th>Nombre</th>
+        <th>Apellidos</th>
+        <th>Teléfono</th>
+        <th>Email</th>
+        <th>Detalles</th>
+        <th>Editar</th>
+    </tr>
+    @foreach (var empleado in Model.Empleados)
+    {
+    <tr>
+        <td>@empleado.EmpleadoID</td>
+        <td>@empleado.Nombre</td>
+        <td>@empleado.Apellidos</td>
+        <td>@empleado.Telefono</td>
+        <td>@empleado.Email</td>
+        <td>
+            <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-empleadoId="@empleado.EmpleadoID">
+            <i class="fas fa-info-circle fa-lg"></i> </a> 
+        </td> 
+        <td>
+            <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-empleadoId="@empleado.EmpleadoID">
+            <i class="fas fa-address-book fa-lg" aria-hidden="true"></i></a>
+        </td>
+    </tr>
+    }
+</table>
+
+<a asp-page=".\Create" class="btn btn-primary">Adicionar empleado</a>

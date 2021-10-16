@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using FactuSys.App.Persistencia;
+using FactuSys.App.Persistencia.AppRepositorios;
 
 namespace FactuSys.App.Frontend
 {
@@ -26,6 +27,7 @@ namespace FactuSys.App.Frontend
         {
             services.AddRazorPages();
             services.AddTransient<IRepositorioClientes, RepositorioClientesMemoria>();
+            services.AddTransient<IRepositorioEmpleados, RepositorioEmpleadosMemoria>();
             services.AddDbContext<FactuSys.App.Persistencia.AppContext>();
         }
 
