@@ -29,6 +29,7 @@ namespace FactuSys.App.Frontend
             services.AddTransient<IRepositorioClientes, RepositorioClientesMemoria>();
             services.AddTransient<IRepositorioEmpleados, RepositorioEmpleadosMemoria>();
             services.AddDbContext<FactuSys.App.Persistencia.AppContext>();
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,6 +51,7 @@ namespace FactuSys.App.Frontend
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App\\FactuSys.App.FrontEnd\\FactuSys.App.Frontend.csproj": {}
+    "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App\\FactuSys.App.Frontend\\FactuSys.App.Frontend.csproj": {}
   },
   "projects": {
     "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App\\FactuSys.App.Dominio\\FactuSys.App.Dominio.csproj": {
@@ -70,14 +70,14 @@
         }
       }
     },
-    "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App\\FactuSys.App.FrontEnd\\FactuSys.App.Frontend.csproj": {
+    "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App\\FactuSys.App.Frontend\\FactuSys.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App\\FactuSys.App.FrontEnd\\FactuSys.App.Frontend.csproj",
+        "projectUniqueName": "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App\\FactuSys.App.Frontend\\FactuSys.App.Frontend.csproj",
         "projectName": "FactuSys.App.Frontend",
-        "projectPath": "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App\\FactuSys.App.FrontEnd\\FactuSys.App.Frontend.csproj",
+        "projectPath": "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App\\FactuSys.App.Frontend\\FactuSys.App.Frontend.csproj",
         "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
-        "outputPath": "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App\\FactuSys.App.FrontEnd\\obj\\",
+        "outputPath": "G:\\Mi unidad\\1 MARIANA\\MisionTIC2022\\DesarrolloSofware-Ciclo3\\FactuSys\\FactuSys.App\\FactuSys.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -118,6 +118,34 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

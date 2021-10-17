@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FactuSys.App.Frontend.Pages
 {
@@ -17,6 +18,7 @@ namespace FactuSys.App.Frontend.Pages
             _logger = logger;
         }
 
+        // [Authorize]
         public void OnGet()
         {
 
